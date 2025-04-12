@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+JavaScript/node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders and files
+JavaScript/.vscode/
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+
+# Local config files
+*.local.js
+
+# Parcel, Vite, Webpack, or other bundlers
+.cache/
+.parcel-cache/
+.next/
+out/
+.storybook/
+
+# Lint caches
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Others (customize as needed)
+*.tgz
