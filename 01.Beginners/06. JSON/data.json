@@ -1,0 +1,11 @@
+{
+  "name": "john",
+  "age": 24,
+  "email": "jon@gmail.com",
+  "isSubscribed": true,
+  "hobbies": ["Reading", "Running", "Cooking"],
+  "address": {
+    "city": "Madrid",
+    "zipCode": "39292"
+  }
+}
