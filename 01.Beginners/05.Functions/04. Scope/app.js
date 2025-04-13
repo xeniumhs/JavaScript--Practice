@@ -24,4 +24,3 @@ console.log(i); // Global Scope
 
 showMessage();
 console.log(textMessage); // Access Global Scope
-
