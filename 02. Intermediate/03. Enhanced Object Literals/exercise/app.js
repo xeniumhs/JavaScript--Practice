@@ -15,12 +15,15 @@
 // -------------------------------
 // ES6 code
 
-const a = 1, b = 2, c = 3;
-const obj={
-    a,b,c,
+const a = 1,
+  b = 2,
+  c = 3;
+const obj = {
+  a,
+  b,
+  c,
 };
 console.log(obj);
-
 
 // obj.a = 1, obj.b = 2, obj.c = 3
 // -------------------------------
@@ -61,7 +64,7 @@ console.log(lib.mult(2, 3)); // 6
 //   };
 // }
 
-// getPersionES5("Xen", 23, 185);
+// getPersonES5("Xen", 23, 185);
 // Expected output: { name: 'xen', age: 23, height: 185 }
 // -------------------------------
 function getPersonES6(name, age, height) {
