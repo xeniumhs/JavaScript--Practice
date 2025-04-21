@@ -62,7 +62,7 @@
 //   return [1, 2, 3];
 // }
 
-// // const [a, , b] = f();
+// const [a, , b] = f();   //ignoring second values
 // // console.log(a); // 1
 // // console.log(b); // 3
 
