@@ -5,7 +5,8 @@ const person = {
   country: "USA",
 };
 
-function printPersonInfo({ name, age, country }) {
+function printPersonInfo({ name, age, country })
+{
   console.log(`Name: ${name}`);
   console.log(`Age: ${age}`);
   console.log(`Country: ${country}`);
@@ -28,7 +29,8 @@ function showMenu({
   width: w = 100, // width goes to w
   height: h = 200, // height goes to h
   items: [item1, item2], // items first element goes to item1, second to item2
-}) {
+}       //destructuring function to each parameter
+) {
   console.log(`${title} ${w} ${h}`); // My Menu 100 200
   console.log(item1); // Item1
   console.log(item2); // Item2
