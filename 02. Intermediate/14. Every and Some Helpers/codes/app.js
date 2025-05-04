@@ -7,7 +7,7 @@
 
 //////////////////////////////////////////
 
-const peoples = ["huxn", "jordan", "alex"];
+const peoples = ["xen", "jordan", "alex"];
 
 const res = peoples.every((people) => people.length === 4);
 const res2 = peoples.some((people) => people.length < 3);
